@@ -1,0 +1,97 @@
+li
+{
+    list-style: none;
+}
+body
+{
+    background-image: url(./sky-full-of-stars-and-silhouettes-of-trees-below.jpg);
+
+}
+.logo
+{
+    background-color:rgb(255, 255, 255,0.5);
+    font-size: 4rem;
+    max-width: 300px;
+    text-transform: uppercase;
+    margin-left: 5rem;
+}
+ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header li
+{
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.top-img
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+}
+.main img
+{
+    max-width: 300px;
+    transform: rotate(45deg);
+}
+.main img:hover 
+{
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+.left
+{
+    margin-left: 20%;
+}
+.right
+{
+    margin-left: 20%;
+}
+.middle-img img
+{
+    margin-left: 40%;
+}
+.banniere
+{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+.banniere img
+{
+    max-height: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.banniere h1
+{
+    font-size: 2rem;
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.footer div
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.footer div ul
+{
+    display: flex;
+    flex-direction: column;
+}
